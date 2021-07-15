@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Project 77</title>
+    </head>
+    <body>
+        <center>
+            <h1>Saiaakanksh</h1>
+            <h2 id="name"></h2>
+            <p><b>What is Visual Studio Code?</b><br>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js.<br><b>How to download and set up Visual Studio Code?<br></b>1. Download Visual Studio Code Installer from <a href="https://go.microsoft.com/fwlink/?LinkID=534107">here</a>.<br>2. Once it is downloaded open the installer and install Visual Studio Code. This will take a few minutes.<br>3. Then run and make your projects.</p>
+            <p><b>What is a console screen?</b><br>Console is a screen where you display your output, and it is used for testing purposes.<br><b>How to open console window?</b><br>Right click on the web page and click on inspect and then click on console to open console window.<br><b>How to print on console?</b><br>Use "console.log("text")" to print on console window.</p>
+        </center>
+        <style>
+            body {
+                background-color: yellow;
+            }
+            h1{
+                color:red;
+            }
+            h2{
+                color:darkorange;
+            }
+            p{
+                color:darkgreen;
+            }
+            b{
+                color:red;
+            }
+        </style>
+        <script>
+            //Concatenation
+            var firstname = "Saiaakanksh "
+            var lastname = "Samal"
+            var fullname = firstname.concat(lastname);
+            console.log(fullname);
+            document.getElementById("name").innerHTML = fullname;
+            //Adding 2 variables
+            var numA = Math.max(45,49,85,95,5);
+            var numB = Math.min(45,49,85,95,5);
+            var add = numA + numB;
+            var subt = numA - numB;
+            var multi = numA * numB;
+            var divide = numA / numB;
+            var sqrt = Math.sqrt(25);
+            console.log("Number 1 = " + numA);
+            console.log("Number 2 = " + numB);
+            console.log(numA + "+" + numB + "=");
+            console.log(add);
+            console.log(numA + "-" + numB + "=");
+            console.log(subt);
+            console.log(numA + "×" + numB + "=");
+            console.log(multi);
+            console.log(numA + "÷" + numB + "=");
+            console.log(divide);
+            console.log("√" + 25 + "=");
+            console.log(sqrt);
+        </script>
+    </body>
+</html>
